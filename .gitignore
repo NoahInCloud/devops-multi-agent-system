@@ -1,0 +1,27 @@
+# Environments
+# Ignore the virtual environment folder
+.venv/
+venv/
+env/
+
+# Secrets
+# Ignore the file containing secrets/credentials
+.env
+*.env
+
+# Python cache files
+# Ignore compiled Python files and cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / Editor specific
+# Ignore configuration folders for common editors
+.vscode/
+.idea/
+
+# Other
+# Ignore log files or temporary files if they are generated
+*.log
+*.tmp
